@@ -14,8 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
-document:assets/cv.pdf
-# resume-url: https://google.com/?q=my+resume
+resume-url: https://drive.google.com/file/d/1TaTBu5LS5-hdhbv5DdQoyO3jEaHmL05y/view?usp=sharing
 
 url: https://hyeongjinnpark.github.io
 # your url: http://USERNAME.github.io
