@@ -40,11 +40,10 @@ layout: page
 				<p>Security Research Engineer</p>
 				<ol>Product Security Incident Response Team (PSIRT)
 					<ol><h5>Operating the official Samsung Mobile Security Rewards Program (also knwon as bug bounty program) rewarding up to $ 200,000 for security vulnerabilities of Samsung Mobile devices and services.
-						<p>(https://security.samsungmobile.com/main.smsb).</h5><p>
+						<p>(https://security.samsungmobile.com/main.smsb).<p></h5>
 					</ol>
 					<ol><h5>Proficient use of Reverse Engineering, Fuzzing and Exploiting technologies to perform security risk assessment for "Kernel, TEE, Framework, Application etc. in all Samsung Mobile devices".
 					</h5></ol>
-					</ol>
 				</ol>
 			<ol>Jan 2016 - Present : Samsung Electronics Security Expert Research Group
 				<ol><h5>Share security issues of all Samsung Electronics products such as mobile, TV, and semiconductors, and discover new security items.</h5></ol>
