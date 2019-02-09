@@ -62,7 +62,7 @@ layout: page
 				<ol><h5>Development and testing of image processing algorithm for gesture recognition(with Samsung Research)</h5></ol>
 				<ol><h5>Implemented diverse projects using various technologies such as image processing, EEG signal analysis, and motor control.</h5></ol>
 		</ol>
-</ul>
+
 
 
 <h2>RESEARCH EXPERIENCE</h2>
