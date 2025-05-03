@@ -1,4 +1,4 @@
-/* 기본 스타일 리셋 */
+/* 기본 스타일 */
 * {
     margin: 0;
     padding: 0;
@@ -12,23 +12,10 @@ body {
     background-color: #f5f5f5;
 }
 
-/* 컨테이너 */
 .container {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-}
-
-/* 헤더 */
-header {
-    text-align: center;
-    margin-bottom: 30px;
-    padding: 20px 0;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    color: #2d3748;
 }
 
 /* PDF 컨테이너 */
@@ -37,7 +24,6 @@ header h1 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin-bottom: 30px;
 }
 
 #loading-message, #error-message {
@@ -69,17 +55,10 @@ header h1 {
     height: 20px;
 }
 
-/* 푸터 */
-footer {
-    text-align: center;
-    color: #718096;
-    padding: 20px 0;
-}
-
 /* 반응형 디자인 */
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
+    .container {
+        padding: 10px;
     }
     
     .pdf-container {
