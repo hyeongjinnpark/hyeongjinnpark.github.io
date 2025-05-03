@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서 - 내 이력서</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">내 이름</div>
+            <ul class="nav-links">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="about.html">소개</a></li>
+                <li><a href="cv.html" class="active">이력서</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <section class="cv-section">
+            <h1>이력서</h1>
+            <div class="cv-content">
+                <div class="cv-actions">
+                    <a href="assets/resume.pdf" download class="btn primary">PDF 다운로드</a>
+                </div>
+                
+                <div class="pdf-container">
+                    <div id="loading-message">PDF를 로딩 중입니다...</div>
+                    <div id="error-message" style="display: none;">
+                        PDF를 불러오는 데 문제가 발생했습니다. <a href="assets/resume.pdf" target="_blank">직접 PDF 보기</a>
+                    </div>
+                    <div id="pdf-viewer"></div>
+                </div>
+                
+                <p class="fallback-message">PDF가 표시되지 않는 경우 <a href="assets/resume.pdf" target="_blank">여기</a>를 클릭하여 새 탭에서 열어보세요.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 내 이름. 모든 권리 보유.</p>
+        <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="mailto:your.email@example.com">이메일</a>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script src="js/pdf-viewer.js"></script>
+</body>
+</html> 
