@@ -37,7 +37,14 @@ linkedin_username: hyeongjinpark
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Security Research Engineer with extensive experience in mobile security, threat intelligence, and malware analysis. Interested in Security (with emphasis on CTI and dark web research), AI, and Block Chain.
+  Since beginning my career in 2014, I have gained extensive expertise in mobile security research, including operating Bug Bounty programs and conducting in-depth vulnerability assessments. More recently, I have focused on Cyber Threat Intelligence (CTI), dedicating myself to dark web threat analysis and developing proactive defense strategies.
+
+  I enjoy generating creative ideas that address complex cybersecurity challenges and continuously explore opportunities at the intersection of Security, AI, and Blockchain. By combining a deep understanding of cyber threats with a forward-thinking approach, I strive to contribute innovative solutions that strengthen security in today's ever-evolving digital landscape.
+
+  **Current Interests**
+  • Security (with emphasis on CTI and dark web research)
+  • AI
+  • Blockchain
 
 content:
   - title: Experience
