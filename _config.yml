@@ -3,7 +3,7 @@ repository: hyeongjinnpark/hyeongjinnpark.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)
 
 # Content configuration version
-version: 2
+version: 1
 
 # Personal info
 name: Hyeong-Jin Park
@@ -51,7 +51,8 @@ content:
           **Security Team (Samsung Mobile), Suwon, South Korea**
           
           **Product Security Incident Response Team (PSIRT)**
-          - Operates the official Samsung Mobile Security Rewards Program (https://security.samsungmobile.com/main.smsb)
+          - Operates the official Samsung Mobile Security Rewards Program 
+          (https://security.samsungmobile.com/main.smsb)
           - Performs security risk assessment for Kernel, TEE, Application etc. in all Samsung Galaxy devices
           - Oversees Cyber Threat Intelligence (CTI), including dark web monitoring and analysis of 0-day vulnerabilities, malware and ransomware threats
           
@@ -76,7 +77,7 @@ content:
         sub_title: Software Engineer
         caption: July 2012 - July 2014
         description: | # this will include new lines to allow paragraphs
-          **Jeonju, South Korea**
+          **South Korea**
           
           - Development and testing of image processing algorithm for gesture recognition (with Samsung Research)
           - Implemented diverse projects using various technologies such as image processing, EEG signal analysis, and motor control
@@ -121,39 +122,31 @@ content:
       - Google Colab, VSCode, Jupyter, and HuggingFace Hub for development and experimentation
 
   - title: Certifications
-    layout: list
-    content:
-      - layout: left
-        title: AWS Certified Security – Specialty
-        caption: January 2024 - January 2027
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **AWS Certified Security – Specialty**
+      - January 2024 - January 2027
 
   - title: Research
-    layout: list
-    content:
-      - layout: left
-        title: Behavior-Based Automatic Malware Detection System using Deep Learning
-        caption: 2018
-        description: | # this will include new lines to allow paragraphs
-          Presented at the 2018 Samsung Conference (for Samsung researchers only)
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Behavior-Based Automatic Malware Detection System using Deep Learning**
+      - Presented at the 2018 Samsung Conference (for Samsung researchers only)
 
   - title: Patents
-    layout: list
-    content:
-      - layout: left
-        title: Malware detection system using static code analysis and probabilistic model
-        caption: US16/068263 (Filed July 5, 2018)
-        
-      - layout: left
-        title: Electronic Apparatus for detecting Malware and Method thereof
-        caption: KR/10-2016-0072230 (Filed June 10, 2016)
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Malware detection system using static code analysis and probabilistic model**
+      - US16/068263 (Filed July 5, 2018)
+      
+      **Electronic Apparatus for detecting Malware and Method thereof**
+      - KR/10-2016-0072230 (Filed June 10, 2016)
 
   - title: Extracurricular Activities
-    layout: list
-    content:
-      - layout: left
-        title: Sentinel Protocol Cyber Security Expert
-        link: https://forum.sentinelprotocol.io/
-        
-      - layout: left
-        title: RSK Ambassador at South Korea
-        link: https://www.rsk.co/
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Sentinel Protocol Cyber Security Expert**
+      - [https://forum.sentinelprotocol.io/](https://forum.sentinelprotocol.io/)
+      
+      **RSK Ambassador at South Korea**
+      - [https://www.rsk.co/](https://www.rsk.co/)
