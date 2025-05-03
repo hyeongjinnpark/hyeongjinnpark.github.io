@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Hyeong-Jin Park
 title: Security Research Engineer
-email: hyeongjinn.park@gmail.com
+# email: 
 # phone: 
 # website: 
 
@@ -148,4 +148,8 @@ content:
       - [https://forum.sentinelprotocol.io/](https://forum.sentinelprotocol.io/)
       
       **RSK Ambassador at South Korea**
+<<<<<<< Updated upstream
       - [https://www.rsk.co/](https://www.rsk.co/)
+=======
+      - [https://www.rsk.co/](https://www.rsk.co/)
+>>>>>>> Stashed changes
