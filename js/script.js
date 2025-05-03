@@ -1,28 +1,20 @@
 // PDF 뷰어 기능
 document.addEventListener('DOMContentLoaded', function() {
-    // CV 페이지에서만 실행
-    if (window.location.pathname.includes('cv.html')) {
-        initPdfViewer();
-    }
+    initPdfViewer();
 });
 
 async function initPdfViewer() {
     try {
         // PDF.js 워커 설정
-        if (typeof pdfjsLib !== 'undefined') {
-            pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
-            
-            // PDF 로드
-            const pdfUrl = 'assets/resume.pdf';
-            const container = document.getElementById('pdf-viewer');
-            
-            if (container) {
-                // PDF 렌더링
-                await loadPdf(pdfUrl, container);
-            }
-        } else {
-            console.error('PDF.js 라이브러리가 로드되지 않았습니다.');
-            document.getElementById('error-message').style.display = 'block';
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
+        
+        // PDF 로드
+        const pdfUrl = 'assets/resume.pdf';
+        const container = document.getElementById('pdf-viewer');
+        
+        if (container) {
+            // PDF 렌더링
+            await loadPdf(pdfUrl, container);
         }
     } catch (error) {
         console.error('PDF 뷰어 초기화 에러:', error);
