@@ -3,7 +3,7 @@ repository: hyeongjinnpark/hyeongjinnpark.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)
 
 # Content configuration version
-version: 1
+version: 2
 
 # Personal info
 name: Hyeong-Jin Park
@@ -51,8 +51,7 @@ content:
           **Security Team (Samsung Mobile), Suwon, South Korea**
           
           **Product Security Incident Response Team (PSIRT)**
-          - Operates the official Samsung Mobile Security Rewards Program 
-          (https://security.samsungmobile.com/main.smsb)
+          - Operates the official Samsung Mobile Security Rewards Program (https://security.samsungmobile.com/main.smsb)
           - Performs security risk assessment for Kernel, TEE, Application etc. in all Samsung Galaxy devices
           - Oversees Cyber Threat Intelligence (CTI), including dark web monitoring and analysis of 0-day vulnerabilities, malware and ransomware threats
           
