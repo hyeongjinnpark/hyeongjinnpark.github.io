@@ -1,0 +1,159 @@
+# Site
+repository: hyeongjinnpark/hyeongjinnpark.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Hyeong-Jin Park
+title: Security Research Engineer
+email: hyeongjinn.park@gmail.com
+# phone: 
+# website: 
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: 
+github_username: hyeongjinnpark
+# stackoverflow_username: 
+# dribbble_username: 
+# facebook_username: 
+# flickr_username: 
+# instagram_username: 
+linkedin_username: hyeong-jin-park
+# xing_username: 
+# pinterest_username: 
+# youtube_username: 
+# googleplus_username: 
+# orcid_username: 
+
+# Additional icon links
+# PDF 링크 제거됨
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Security Research Engineer with extensive experience in mobile security, threat intelligence, and malware analysis. Interested in Security (with emphasis on CTI and dark web research), AI, and Block Chain.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Samsung Electronics
+        sub_title: Security Research Engineer
+        caption: January 2016 - Present
+        description: | # this will include new lines to allow paragraphs
+          **Security Team (Samsung Mobile), Suwon, South Korea**
+          
+          **Product Security Incident Response Team (PSIRT)**
+          - Operates the official Samsung Mobile Security Rewards Program (https://security.samsungmobile.com/main.smsb)
+          - Performs security risk assessment for Kernel, TEE, Application etc. in all Samsung Galaxy devices
+          - Oversees Cyber Threat Intelligence (CTI), including dark web monitoring and analysis of 0-day vulnerabilities, malware and ransomware threats
+          
+          **Samsung Electronics Security Expert Research Group**
+          - Share security issues of all Samsung Electronics products such as mobile, TV, and semi-conductors, and discover new security items
+
+      - layout: left
+        title: Samsung Electronics
+        sub_title: Research Engineer
+        caption: July 2014 - December 2015
+        description: | # this will include new lines to allow paragraphs
+          **Frontier Research Lab (Samsung Research), Suwon, South Korea**
+          
+          - Implemented malware detection system on Android devices using deep learning
+          - Analyzed large dataset of Android applications to identify and statistically correlate key malware characteristics from dex file, native libraries, and (hidden) scripts or image files
+          - Research of AOT (Ahead Of Time compilation) compiler technique to convert the Android application to Tizen application
+          - Implementation of indoor autonomous mobile robot based on ROS (Robot Operating System)
+          - Implementation of drone algorithm to follow recorded face by using video-based machine learning
+
+      - layout: left
+        title: Samsung Software Membership
+        sub_title: Software Engineer
+        caption: July 2012 - July 2014
+        description: | # this will include new lines to allow paragraphs
+          **Jeonju, South Korea**
+          
+          - Development and testing of image processing algorithm for gesture recognition (with Samsung Research)
+          - Implemented diverse projects using various technologies such as image processing, EEG signal analysis, and motor control
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Arizona State University
+        caption: January 2021 - December 2023
+        sub_title: Master of Computer Science
+        description: | # this will include new lines to allow paragraphs
+          - Graduated with Honors (Cum Laude equivalent)
+
+      - layout: left
+        title: Jeonbuk National University
+        caption: March 2008 - August 2014
+        sub_title: Bachelor of Computer Science and Engineering
+        description: | # this will include new lines to allow paragraphs
+          - Graduated with Outstanding Graduate Award (ranked 1st in project contest and algorithm contest)
+
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Programming & Scripting Languages**
+      - Proficient in Python, C, C++, Java, Bash; familiar with Solidity, SQL, JavaScript
+      
+      **AI / Deep Learning**
+      - Experience with PyTorch, TensorFlow, Keras, and Caffe
+      - Built and fine-tuned models using Colab, Jupyter, and HuggingFace Transformers
+      - Recent work includes LLM-based RAG (Retrieval-Augmented Generation) pipelines in Python using LangChain/Faiss and open-weight models (Gemma, Mistral)
+      
+      **Security & Reverse Engineering**
+      - Android internals (Bootloader, Baseband, TEE, NDK, ART, LLVM) and malware analysis
+      - Skilled in binary analysis using IDA, Ghidra, OllyDbg, Jadx, Apktool
+      - Web security testing with Burp Suite, Fiddler; Fuzzing experience with AFL and honggfuzz
+      - Experience with dark web threat intelligence tooling and OSINT practices
+      - Static/dynamic analysis using Fortify, Androguard
+      
+      **Tools & Frameworks**
+      - Familiar with Git, Docker, Linux CLI environments
+      - Google Colab, VSCode, Jupyter, and HuggingFace Hub for development and experimentation
+
+  - title: Certifications
+    layout: list
+    content:
+      - layout: left
+        title: AWS Certified Security – Specialty
+        caption: January 2024 - January 2027
+
+  - title: Research
+    layout: list
+    content:
+      - layout: left
+        title: Behavior-Based Automatic Malware Detection System using Deep Learning
+        caption: 2018
+        description: | # this will include new lines to allow paragraphs
+          Presented at the 2018 Samsung Conference (for Samsung researchers only)
+
+  - title: Patents
+    layout: list
+    content:
+      - layout: left
+        title: Malware detection system using static code analysis and probabilistic model
+        caption: US16/068263 (Filed July 5, 2018)
+        
+      - layout: left
+        title: Electronic Apparatus for detecting Malware and Method thereof
+        caption: KR/10-2016-0072230 (Filed June 10, 2016)
+
+  - title: Extracurricular Activities
+    layout: list
+    content:
+      - layout: left
+        title: Sentinel Protocol Cyber Security Expert
+        link: https://forum.sentinelprotocol.io/
+        
+      - layout: left
+        title: RSK Ambassador at South Korea
+        link: https://www.rsk.co/
