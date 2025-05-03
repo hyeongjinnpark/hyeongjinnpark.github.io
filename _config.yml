@@ -78,16 +78,6 @@ content:
           - Implementation of indoor autonomous mobile robot based on ROS (Robot Operating System)
           - Implementation of drone algorithm to follow recorded face by using video-based machine learning
 
-      - layout: left
-        title: Samsung Software Membership
-        sub_title: Software Engineer
-        caption: July 2012 - July 2014
-        description: | # this will include new lines to allow paragraphs
-          **South Korea**
-          
-          - Development and testing of image processing algorithm for gesture recognition (with Samsung Research)
-          - Implemented diverse projects using various technologies such as image processing, EEG signal analysis, and motor control
-
   - title: Education
     layout: list
     content:
@@ -97,13 +87,6 @@ content:
         sub_title: Master of Computer Science
         description: | # this will include new lines to allow paragraphs
           - Graduated with Honors (Cum Laude equivalent)
-
-      - layout: left
-        title: Jeonbuk National University
-        caption: March 2008 - August 2014
-        sub_title: Bachelor of Computer Science and Engineering
-        description: | # this will include new lines to allow paragraphs
-          - Graduated with Outstanding Graduate Award (ranked 1st in project contest and algorithm contest)
 
   - title: Skills
     layout: text
@@ -148,12 +131,3 @@ content:
       **Electronic Apparatus for detecting Malware and Method thereof**
       - KR/10-2016-0072230 (Filed June 10, 2016)
 
-  - title: Extracurricular Activities
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      **Sentinel Protocol Cyber Security Expert**
-      - [https://forum.sentinelprotocol.io/](https://forum.sentinelprotocol.io/)
-      
-      **RSK Ambassador at South Korea**
-      - [https://www.rsk.co/](https://www.rsk.co/)
-      
